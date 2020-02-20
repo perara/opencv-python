@@ -124,7 +124,7 @@ def main():
 
     # OS-specific components
     if sys.platform.startswith('linux') and not build_headless:
-        cmake_args.append("-DWITH_QT=4")
+        cmake_args.append("-DWITH_QT=5")
 
     if sys.platform == 'darwin' and not build_headless:
         cmake_args.append("-DWITH_QT=5")
